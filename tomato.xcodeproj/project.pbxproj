@@ -56,15 +56,55 @@
 		CEEAE2822A44F605003BD92E /* tomato */ = {
 			isa = PBXGroup;
 			children = (
-				CEEAE2832A44F605003BD92E /* AppDelegate.swift */,
-				CEEAE2852A44F605003BD92E /* SceneDelegate.swift */,
-				CEEAE2872A44F605003BD92E /* ViewController.swift */,
-				CEEAE2892A44F605003BD92E /* Main.storyboard */,
-				CEEAE28C2A44F606003BD92E /* Assets.xcassets */,
-				CEEAE28E2A44F606003BD92E /* LaunchScreen.storyboard */,
-				CEEAE2912A44F606003BD92E /* Info.plist */,
+				CEEAE2972A44F8AB003BD92E /* Resources */,
+				CEEAE2992A44F8E8003BD92E /* Sources */,
 			);
 			path = tomato;
+			sourceTree = "<group>";
+		};
+		CEEAE2972A44F8AB003BD92E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEEAE28C2A44F606003BD92E /* Assets.xcassets */,
+				CEEAE2982A44F8C9003BD92E /* Configuration */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEEAE2982A44F8C9003BD92E /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				CEEAE2912A44F606003BD92E /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		CEEAE2992A44F8E8003BD92E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEEAE29B2A44F951003BD92E /* App */,
+				CEEAE29A2A44F8FE003BD92E /* Storyboards */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CEEAE29A2A44F8FE003BD92E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CEEAE2892A44F605003BD92E /* Main.storyboard */,
+				CEEAE28E2A44F606003BD92E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CEEAE29B2A44F951003BD92E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CEEAE2872A44F605003BD92E /* ViewController.swift */,
+				CEEAE2832A44F605003BD92E /* AppDelegate.swift */,
+				CEEAE2852A44F605003BD92E /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
